@@ -2,7 +2,7 @@ export default function AppDataGrid(props) {
 
 const mapYandexSched= props.arrData.map(
 (itemArrMap,index)=>(<div className="card" key={itemArrMap.id}>
-   <div className="headCard">
+<div className="headCard">
 
        <table>
                <tbody key={itemArrMap._id}>
@@ -19,12 +19,6 @@ const mapYandexSched= props.arrData.map(
                </tr>
                </tbody>
        </table>
-
-
-
-
-
-
    </div>
 </div>)
 );
